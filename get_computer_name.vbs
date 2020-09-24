@@ -13,7 +13,7 @@
     serialNumber = CStr(objItem.IdentifyingNumber)
  Next
 
-info = computerName & " " & serialNumber
+info = serialNumber & " " & computerName 
 
 Set fso = CreateObject("Scripting.FileSystemObject")
 set WshShell = WScript.CreateObject("WScript.Shell")
